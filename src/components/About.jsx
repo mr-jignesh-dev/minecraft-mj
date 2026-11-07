@@ -58,7 +58,7 @@ const About = () => {
       <div id="clip" className="relative h-dvh w-screen">
         <div className="mask-clip-path about-image">
           <img
-            src="/img/hero-img-7.png"
+            src="/img/about-img.png"
             alt="Minecraft world"
             className="absolute left-0 top-0 size-full object-cover"
           />

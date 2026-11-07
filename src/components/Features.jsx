@@ -70,30 +70,30 @@ const Features = () => (
 
       {/* Hero Bento Card */}
       <BentoTilt className="border-hsla relative mb-6 md:mb-7 h-64 sm:h-80 md:h-[65vh] w-full overflow-hidden">
-        <BentoCard src="img/hero-img-2.png" />
+        <BentoCard src="img/feature-1.png" />
       </BentoTilt>
 
       {/* Clean Responsive Bento Grid */}
       <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-6 md:gap-7">
         {/* Card 1 */}
         <BentoTilt className="h-72 sm:h-96 md:h-[600px] w-full overflow-hidden">
-          <BentoCard src="img/image copy 12.png" />
+          <BentoCard src="img/feature-2.png" />
         </BentoTilt>
 
         {/* Right Column Stack */}
         <div className="flex flex-col gap-6 md:gap-7">
           <BentoTilt className="h-72 sm:h-48 md:h-[286px] w-full overflow-hidden">
-            <BentoCard src="img/image copy 10.png" />
+            <BentoCard src="img/feature-3.png" />
           </BentoTilt>
 
           <BentoTilt className="h-72 sm:h-48 md:h-[286px] w-full overflow-hidden">
-            <BentoCard src="img/hero-img-5.png" />
+            <BentoCard src="img/feature-4.png" />
           </BentoTilt>
         </div>
 
         {/* Bottom Cards: Full width on mobile, side-by-side on desktop */}
         <BentoTilt className="h-64 sm:h-80 md:h-[350px] w-full overflow-hidden">
-          <BentoCard src="img/image copy 5.png" />
+          <BentoCard src="img/feature-5.png" />
         </BentoTilt>
 
         <BentoTilt className="h-64 sm:h-80 md:h-[350px] w-full overflow-hidden">

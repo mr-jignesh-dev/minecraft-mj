@@ -193,13 +193,13 @@ const Hero = () => {
 
         <div className="absolute left-0 top-0 z-40 size-full p-6 sm:p-10 pointer-events-none">
           <div className="pointer-events-auto inline-block max-w-full">
-            <h1 
-              className="text-5xl sm:text-7xl md:text-8xl mt-12 mb-4 font-minecraft-seven-v2 font-bold tracking-wider leading-none"
+            <h1
+              className="mt-20 sm:mt-12 mb-4 text-5xl sm:text-7xl md:text-8xl font-minecraft-seven-v2 font-bold tracking-wider leading-none"
               style={{
                 background: "linear-gradient(to bottom, #ffffff 0%, #d8d8d8 50%, #aaaaaa 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                filter: "drop-shadow(3px 3px 0px #171717) drop-shadow(6px 6px 0px #0a0a0a)"
+                filter: "drop-shadow(3px 3px 0px #171717) drop-shadow(6px 6px 0px #0a0a0a)",
               }}
             >
               MINECRAFT

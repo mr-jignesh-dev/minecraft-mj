@@ -63,11 +63,14 @@ const NavBar = () => {
   return (
     <div
       ref={navContainerRef}
-      className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6 bg-[#313131]/80 backdrop-blur-md rounded-lg"
+      className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6 bg-[#313131]/80 backdrop-blur-md !rounded-none"
     >
       <style>{`
         .nav-hover-btn::after {
           background-color: #43a047 !important;
+        }
+        .floating-nav {
+          border-radius: 0px !important;
         }
       `}</style>
       <header className="absolute top-1/2 w-full -translate-y-1/2">
@@ -85,10 +88,10 @@ const NavBar = () => {
                 <a
                   key={index}
                   href={`#${item.toLowerCase()}`}
-                  className="nav-hover-btn flex items-center gap-1 text-white font-minecraft-seven-v2"
+                  className="nav-hover-btn flex items-center gap-1 text-gray-200 font-minecraft-seven-v2"
                 >
-                  <span className="font-minecraft-seven-v2 tracking-wider">{item}</span>
-                  {["GAMES", "SHOP", "EXPLORE", "COMMUNITY"].includes(item) }
+                  <span className="font-minecraft-seven-v2 text-[15px] tracking-wider">{item}</span>
+                  {["GAMES", "SHOP", "EXPLORE", "COMMUNITY"].includes(item)}
                 </a>
               ))}
             </div>
