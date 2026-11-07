@@ -205,7 +205,7 @@ const Hero = () => {
               MINECRAFT
             </h1>
             <p className="mb-5 max-w-xs sm:max-w-64 lg:max-w-md text-xs sm:text-sm lg:text-xl text-gray-200 font-minecraft-seven-v2 drop-shadow-[2px_2px_0_#171717] ]">
-              The Ultimate Block-Building Adventure
+              Create. Explore. Survive.
             </p>
             <Button
               id="watch-trailer"  
