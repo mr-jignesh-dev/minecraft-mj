@@ -48,7 +48,7 @@ const Footer = () => {
       <div className="container relative z-10 mx-auto flex flex-col items-center justify-between gap-6 px-5 py-9 md:flex-row">
 
         {/* Left side */}
-        <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
+        <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-6"> 
 
           {/* Copyright */}
           <p
